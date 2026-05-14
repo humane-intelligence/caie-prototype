@@ -1,0 +1,35 @@
+[project]
+name = "caie-prototype"
+version = "0.1.0"
+description = "CAIE pipeline prototype on APOLLO-sv (infectious disease domain)"
+requires-python = ">=3.12"
+dependencies = [
+    # Notebook framework — WASM export for GitHub Pages
+    "marimo>=0.10",
+    # Visualization — Pyodide-compatible for in-browser rendering
+    "plotly>=5.0",
+    "altair>=5.0",
+    # Scientific computing
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "scikit-learn>=1.3",
+    "polars>=1.0",
+]
+
+[project.optional-dependencies]
+# Full pipeline dependencies — for local pre-computation (not run in browser)
+pipeline = [
+    "rdflib>=7.0",
+    "owlrl>=6.0",
+    "pyyaml>=6.0",
+    "sympy>=1.13",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
