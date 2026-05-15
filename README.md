@@ -7,7 +7,7 @@ applied to the [APOLLO-sv](https://obofoundry.org/ontology/apollo_sv.html) infec
 disease structured vocabulary. Developed by [Humane Intelligence](https://humane-intelligence.org)
 as part of the Schmidt Sciences Trustworthy AI initiative.
 
-**Live demo**: [humane-intelligence.github.io/caie-prototype](https://humane-intelligence.github.io/caie-prototype)
+**Live demo**: [humane-intelligence.github.io/ontology-caie-prototype](https://humane-intelligence.github.io/ontology-caie-prototype)
 
 ## Overview
 
